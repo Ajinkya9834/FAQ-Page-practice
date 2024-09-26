@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+   
+}
+body:nth-child(2) {
+    position: relative;
+    background-color: hsl(275, 100%, 97%); 
+    padding: 20px;
+}
+.top-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40vh;
+    background: url(./assets/images/background-pattern-desktop.svg) no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.accordion{
+    background-color: hsl(0, 0%, 100%);
+   width: 40%;
+   height: auto;
+   border-radius: 15px;
+   box-shadow: 8px 8px 48px 1px  black;
+
+}
+.accordion-FAQ-div{
+    display: flex;
+    padding: 20px;
+}
+.accordion-FAQ-div > img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.accordion-FAQ-div > h1{
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+}
+.accordion-button::after{
+    display: none;
+}
+.accordion-header{
+  display: flex;
+  
+}
+.toggle-icons{
+    display: none;
+}
+
+button:hover{
+    color: rgb(162, 63, 255);
+}
+
+
+@media (max-width: 769px ){
+    .accordion{
+        width: 90%;
+    }
+}
