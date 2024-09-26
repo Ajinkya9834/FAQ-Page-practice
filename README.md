@@ -4,12 +4,14 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ## Table of contents
 
+  - [Published link](#Published-link)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
+  - [Author](#author)
 
+### Published link https://ajinkya9834.github.io/FAQ-Page-practice/
 
 ### The challenge
 
